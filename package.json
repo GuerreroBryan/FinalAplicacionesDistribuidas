@@ -1,0 +1,36 @@
+{
+  "name": "HTTP-REST-TS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"tsc -w\" \" nodemon build/server\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/compression": "^1.0.1",
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.1",
+    "@types/helmet": "0.0.44",
+    "@types/jsonwebtoken": "^8.3.4",
+    "@types/mongoose": "^5.5.20",
+    "@types/mongoose-unique-validator": "^1.0.3",
+    "@types/morgan": "^1.7.37",
+    "@types/node": "^12.7.12",
+    "@types/underscore": "^1.9.3",
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.7.4",
+    "concurrently": "^5.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.21.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.4",
+    "mongoose-unique-validator": "^2.0.3",
+    "morgan": "^1.9.1",
+    "underscore": "^1.9.1"
+  }
+}
